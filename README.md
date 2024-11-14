@@ -13,3 +13,12 @@ The templates folder carries your index.html files and the images which are refe
  docker tag dw10:0.1 dipansus/dw10:0.1
  docker push dipansus/dw10:0.1
 ```
+
+# Test WebServer 
+ ```bash
+go test -v
+go test
+go test -v
+go test -v -run TestFileServer
+go test ./...
+```
